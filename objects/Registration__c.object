@@ -86,5 +86,11 @@
     <pluralLabel>Registrations</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>RegValRule</fullName>
+        <active>true</active>
+        <errorConditionFormula>RegDate__c  =  TODAY()</errorConditionFormula>
+        <errorMessage>No registration today</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
