@@ -89,8 +89,8 @@
     <validationRules>
         <fullName>RegValRule</fullName>
         <active>true</active>
-        <errorConditionFormula>RegDate__c  =  TODAY()</errorConditionFormula>
-        <errorMessage>No registration today</errorMessage>
+        <errorConditionFormula>RegDate__c  &lt;&gt;  TODAY()</errorConditionFormula>
+        <errorMessage>Registrations are only done for the current day</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
