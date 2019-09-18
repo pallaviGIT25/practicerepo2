@@ -1222,6 +1222,10 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>Registration__c.RegValRule</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
